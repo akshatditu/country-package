@@ -1,0 +1,22 @@
+{
+  "name": "akshat-countries",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "This is npm package to fetch countries",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c --environment NODE_ENV:production",
+    "build:dev": "rollup -c --environment NODE_ENV:development"
+  },
+  "author": "Akshat Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.18.1"
+  }
+}
